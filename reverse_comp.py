@@ -14,7 +14,7 @@ def dna_seq_rev_comp():
 
 
 def dna_seq_comp():
-    """Return the complementary sequence"""
+    """Retur the complementary sequence"""
     user_seq = list(dna_seq())
     nucl_change = {
         "A": "T",
